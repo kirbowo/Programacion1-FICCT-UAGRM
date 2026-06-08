@@ -170,8 +170,8 @@ impl Vectores {
         }
     }
     fn burbuja_sort(& mut self) {
-        for i in 0..self.dimension-2 {
-            for j in i+1..self.dimension-1 {
+        for i in 0..self.dimension-1 {
+            for j in i+1..self.dimension {
                 if self.elemento[i] > self.elemento[j] {
                     let aux = self.elemento[i];
                     self.elemento[i] = self.elemento[j];
@@ -226,6 +226,7 @@ fn main() {
     v.addelemento(3);
     v.addelemento(0);
     v.addelemento(9);
+    v.addelemento(2);
 
     v.mostrar();
     /*println!("---------------------------");
@@ -248,8 +249,9 @@ fn main() {
     v.invertir();
     v.mostrar();*/
     println!("---------------------------");
-    v.elim_menor_e(4);
+    //v.elim_menor_e(4);
     //v.eliminar(3);
     //println!("La posicion del numero 3 es: {}", v.obt_pos_real(3));
+    v.burbuja_sort();
     v.mostrar();
 }

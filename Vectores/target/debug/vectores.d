@@ -1,1 +1,1 @@
-/media/hugonex/F/Prog1-Rust/vectores/target/debug/vectores: /media/hugonex/F/Prog1-Rust/vectores/src/main.rs
+/mnt/wwn-0x5000c5004a10dfea-part1/MATERIAS/PROGRAM1\ -\ RUST/Programacion1-FICCT-UAGRM/Vectores/target/debug/vectores: /mnt/wwn-0x5000c5004a10dfea-part1/MATERIAS/PROGRAM1\ -\ RUST/Programacion1-FICCT-UAGRM/Vectores/src/main.rs

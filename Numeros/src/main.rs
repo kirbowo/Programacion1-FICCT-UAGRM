@@ -250,7 +250,7 @@ fn main() {
                    let (pasos, maximo) = n.collatz();
                     println!("  Collatz → pasos: {}, máximo: {}", pasos, maximo);
             }
-            "12" => {
+            /*"12" => {
     println!("  Ingresa la posición (1 = izquierda):");
     match leer_numero() {
         Some(posicion) if posicion >= 1 && posicion <= n.cantidad_digitos() as u64 => {
@@ -266,7 +266,7 @@ fn main() {
     println!("  Ingresa el dígito a buscar (0-9):");
     match leer_numero() {
         Some(digito) if digito <= 9 => {
-            let resultado = n.buscar_digito(digito);
+            //let resultado = n.buscar_digito(digito);
             if resultado == 0 {
                 println!("  El dígito {} no existe en el número.", digito);
             } else {
@@ -276,7 +276,7 @@ fn main() {
         Some(_) => println!("  El dígito debe estar entre 0 y 9."),
         None    => println!("  Dígito inválido."),
     }
-}
+}*/
             "10" => {
                 println!("  Ingresa el dígito a insertar (0-9):");
                 match leer_numero() {

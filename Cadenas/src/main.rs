@@ -207,7 +207,7 @@ fn main() {
                 }
             }
 
-            "6" => {
+            /*"6" => {
                 if c.obt_longitud() == 0 {
                     println!("  La cadena está vacía.");
                 } else {
@@ -317,7 +317,7 @@ fn main() {
                         None => println!(" Posición inválida."),
                     }
                 }
-            }
+            }*/
             
             "q" | "Q" => { println!("\n  Hasta luego.\n"); break; }
                         _          => println!("  Opción no válida."),
